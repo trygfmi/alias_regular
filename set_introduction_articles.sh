@@ -14,11 +14,11 @@ article_url_array=($introduction_macports $introduction_macports_alias $introduc
 article_thumbnail_array=($thumbnail_introduction_macports, $thumbnail_introduction_macports_alias, $thumbnail_introduction_msys2)
 i=0
 
-while grep -q -m 1 "$searchString" $1; do
+while grep -q -m 1 "$searchString" "$1"; do
     echo "見つかりました"
 
     deleteRowNumber=$(grep -n -m 1 "$searchString" $1 | cut -d: -f1)
-    sed -i '' $deleteRowNumber','$(($deleteRowNumber+2))'d' readme_test7.md
+    sed -i '' $deleteRowNumber','$(($deleteRowNumber+2))'d' $fileName
 
     echo $deleteRowNumber"から"$((deleteRowNumber+2))"を削除しました"
 
@@ -26,7 +26,7 @@ while grep -q -m 1 "$searchString" $1; do
 [!['"${article_title[i]}"']('"${article_thumbnail_array[i]}"')]('"${article_url_array[$i]}"')\
 ' $fileName
 
-    echo $deleteRowNumber"にtestを足しました"
+    echo $deleteRowNumber"に導入記事に関する文字列を足しました"
     i=$(($i+1))
 
 done
