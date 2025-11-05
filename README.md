@@ -21,46 +21,85 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、aliasコマンドを実行してください</p>
+<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、aliasコマンドを実行できます</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">ubuntu</h3>
 <!-- /wp:heading -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello ubuntu alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello ubuntu alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello ubuntu alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello ubuntu alias command"'
+hello</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>出力結果</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello ubuntu alias command</code></pre>
+<!-- /wp:code --></details>
+<!-- /wp:details -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">macos</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>※MacPortsを使用しています</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">MacPorts</h4>
+<!-- /wp:heading -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello macos alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello macos alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello macos alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello macos alias command"'
+hello</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>出力結果</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello macos alias command</code></pre>
+<!-- /wp:code --></details>
+<!-- /wp:details -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">windows</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>※MSYS2 MINGW64を使用しています</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">WSL2</h4>
+<!-- /wp:heading -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello windows alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello windows alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello windows alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello windows alias command"'
+hello</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>出力結果</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
+<!-- /wp:code --></details>
+<!-- /wp:details -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">MSYS2 MINGW64</h4>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello windows alias command"'
+hello</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>出力結果</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
+<!-- /wp:code --></details>
+<!-- /wp:details -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">実行手順</h2>
@@ -79,40 +118,41 @@
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git \u002d\u002dversion","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e\u002d\u002dversion\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">--version</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">preinstall</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>command not foundが出たコマンドを以下のコマンドでインストールしてください</p>
+<p>端末でcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"sudo apt install git","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003esudo\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eapt\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003einstall\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003egit\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">sudo</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">apt</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">install</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">git</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">コマンド</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>以下のコマンドを実行することで詳細のコマンド群を自動で実行してくれます</p>
+<p>以下のコマンドを実行することで詳細のような文字列を出力します</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello ubuntu alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello ubuntu alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello ubuntu alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello ubuntu alias command"'
+hello</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:details -->
-<details class="wp-block-details"><summary>helloコマンドの詳細</summary><!-- wp:kevinbatdorf/code-block-pro {"code":"echo \u0022hello ubuntu alias command\u0022","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003eecho\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026quot;hello ubuntu alias command\u0026quot;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">echo</span><span style="color: #24292EFF"> </span><span style="color: #22863A">&quot;hello ubuntu alias command&quot;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro --></details>
+<details class="wp-block-details"><summary>詳細</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello ubuntu alias command</code></pre>
+<!-- /wp:code --></details>
 <!-- /wp:details --></details>
 <!-- /wp:details -->
 
@@ -129,10 +169,10 @@
 <p>以下のコマンドをターミナルに打ち込んでcommand not foundが出なければokです</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"source ~/bashrc_folder/macports_alias\ngit \u002d\u002dversion","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003esource\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e~/bashrc_folder/macports_alias\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e\u002d\u002dversion\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">source</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">~/bashrc_folder/macports_alias</span></span>
-<span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">--version</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
 <p>※macosはMacPortsパッケージマネージャを使用してコマンドを管理します。もしインストールしていない方は以下のリンクからMacPortsのインストール手順をご覧ください</p>
@@ -146,17 +186,16 @@
 <p>初めてこのブログを利用する方は、以下の2つの記事を参考に環境構築してください</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/2025/10/02/macports%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e6%89%8b%e9%a0%86/","type":"wp-embed","providerNameSlug":"todo"} -->
-
-[![youtube](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/thumbnail_macports_title_1920_1080_2.png
-)](https://ss523971.stars.ne.jp/todo/2025/10/02/macports%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e6%89%8b%e9%a0%86/)
-
+<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/how-to-install-macports/","type":"wp-embed","providerNameSlug":"todo"} -->
+<figure class="wp-block-embed is-type-wp-embed is-provider-todo wp-block-embed-todo"><div class="wp-block-embed__wrapper">
+https://ss523971.stars.ne.jp/todo/how-to-install-macports/
+</div></figure>
 <!-- /wp:embed -->
 
-<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/2025/10/03/macports%e3%81%a7%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%97%e3%81%9f%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e3%81%ae%e3%82%a8%e3%82%a4%e3%83%aa%e3%82%a2%e3%82%b9%e8%a8%ad%e5%ae%9a/","type":"wp-embed","providerNameSlug":"todo"} -->
-[![youtube2](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/thumbnail_macports2.png
-)](https://ss523971.stars.ne.jp/todo/2025/10/03/macports%e3%81%a7%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%97%e3%81%9f%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e3%81%ae%e3%82%a8%e3%82%a4%e3%83%aa%e3%82%a2%e3%82%b9%e8%a8%ad%e5%ae%9a/)
-
+<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/how-to-setup-macports-alias","type":"wp-embed","providerNameSlug":"todo"} -->
+<figure class="wp-block-embed is-type-wp-embed is-provider-todo wp-block-embed-todo"><div class="wp-block-embed__wrapper">
+https://ss523971.stars.ne.jp/todo/how-to-setup-macports-alias
+</div></figure>
 <!-- /wp:embed -->
 
 <!-- wp:heading {"level":4} -->
@@ -164,33 +203,34 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>command not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
+<p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"sudo port install git\necho 'alias git=\u0022/opt/local/bin/git\u0022' \u003e\u003e ~/bashrc_folder/macports_alias","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003esudo\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eport\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003einstall\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003egit\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003eecho\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;alias git=\u0026quot;/opt/local/bin/git\u0026quot;\u0026#39;\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e\u0026gt;\u0026gt;\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e~/bashrc_folder/macports_alias\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">sudo</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">port</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">install</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">git</span></span>
-<span class="line"><span style="color: #6F42C1">echo</span><span style="color: #24292EFF"> </span><span style="color: #22863A">&#39;alias git=&quot;/opt/local/bin/git&quot;&#39;</span><span style="color: #24292EFF"> </span><span style="color: #D32F2F">&gt;&gt;</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">~/bashrc_folder/macports_alias</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">コマンド</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>以下のコマンドを実行することで詳細のコマンド群を自動で実行してくれます</p>
+<p>以下のコマンドを実行することで詳細のような文字列を出力します</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"source ~/bashrc_folder/macports_alias\ngit clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello macos alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003esource\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e~/bashrc_folder/macports_alias\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello macos alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">source</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">~/bashrc_folder/macports_alias</span></span>
-<span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello macos alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello macos alias command"'
+hello</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:details -->
-<details class="wp-block-details"><summary>helloコマンドの詳細</summary><!-- wp:kevinbatdorf/code-block-pro {"code":"echo \u0022hello macos alias command\u0022  ","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003eecho\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026quot;hello macos alias command\u0026quot;\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e  \u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">echo</span><span style="color: #24292EFF"> </span><span style="color: #22863A">&quot;hello macos alias command&quot;</span><span style="color: #24292EFF">  </span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro --></details>
+<details class="wp-block-details"><summary>詳細</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello macos alias command</code></pre>
+<!-- /wp:code --></details>
 <!-- /wp:details --></details>
 <!-- /wp:details -->
 
@@ -204,22 +244,39 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>以下のコマンドをMSYS2 MINGW64に打ち込んでcommand not foundが出なければokです</p>
+<p>以下のコマンドをプロンプトに打ち込んでcommand not foundが出なければokです</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git \u002d\u002dversion","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e\u002d\u002dversion\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">--version</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">WSL2</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">MSYS2 MINGW64</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>※windowsはMSYS2 MINGW64で確認しています。もしインストールしていない方は以下のリンクからmsys2のインストール手順をご覧ください</p>
+<p>※windowsはWSL2とMSYS2 MINGW64で確認しています。可能な限りWSL2をインストールしていただいて、もし設定できなかった場合はMSYS2をインストールすることで実行できますが、所々WSL2でしか実行できないコマンドが出てくるかもしれません。WSL2とMSYS2のインストール方法は下記の記事を参考にしてください</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/2025/10/02/windows-msys2%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e6%89%8b%e9%a0%86/","type":"wp-embed","providerNameSlug":"todo"} -->
+<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/how-to-install-wsl2","type":"wp-embed","providerNameSlug":"todo"} -->
+<figure class="wp-block-embed is-type-wp-embed is-provider-todo wp-block-embed-todo"><div class="wp-block-embed__wrapper">
+https://ss523971.stars.ne.jp/todo/how-to-install-wsl2
+</div></figure>
+<!-- /wp:embed -->
 
-[![msys2](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/msys2_thumbnail_1920_1080.png)](https://ss523971.stars.ne.jp/todo/2025/10/02/windows-msys2%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e6%89%8b%e9%a0%86/)
-
-
+<!-- wp:embed {"url":"https://ss523971.stars.ne.jp/todo/how-to-install-msys2","type":"wp-embed","providerNameSlug":"todo"} -->
+<figure class="wp-block-embed is-type-wp-embed is-provider-todo wp-block-embed-todo"><div class="wp-block-embed__wrapper">
+https://ss523971.stars.ne.jp/todo/how-to-install-msys2
+</div></figure>
 <!-- /wp:embed -->
 
 <!-- wp:heading {"level":4} -->
@@ -227,56 +284,70 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>command not foundが出たコマンドを以下のコマンドでインストールしてください</p>
+<p>プロンプトでcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"pacman \u002d\u002dsync git","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003epacman\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003e\u002d\u002dsync\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003egit\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">pacman</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">--sync</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">git</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">WSL2</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">MSYS2 MINGW64</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>pacman --sync git</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading"><strong>コマンド</strong></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>以下のコマンドを実行することで詳細のコマンド群を自動で実行してくれます</p>
+<p>以下のコマンドを実行することで詳細の文字列を出力します</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:kevinbatdorf/code-block-pro {"code":"git clone https://github.com/trygfmi/alias_regular.git\ncd alias_regular\nalias hello='echo \u0022hello windows alias command\u0022'","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003egit\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003eclone\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ehttps://github.com/trygfmi/alias_regular.git\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003ecd\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #2B5581\u0022\u003ealias_regular\u003c/span\u003e\u003c/span\u003e\n\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003ealias\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e hello\u003c/span\u003e\u003cspan style=\u0022color: #D32F2F\u0022\u003e=\u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026#39;echo \u0026quot;hello windows alias command\u0026quot;\u0026#39;\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">git</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">clone</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">https://github.com/trygfmi/alias_regular.git</span></span>
-<span class="line"><span style="color: #6F42C1">cd</span><span style="color: #24292EFF"> </span><span style="color: #2B5581">alias_regular</span></span>
-<span class="line"><span style="color: #D32F2F">alias</span><span style="color: #24292EFF"> hello</span><span style="color: #D32F2F">=</span><span style="color: #22863A">&#39;echo &quot;hello windows alias command&quot;&#39;</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">WSL2</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"className":"has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"} -->
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello windows alias command"'
+hello</code></pre>
+<!-- /wp:code -->
 
 <!-- wp:details -->
-<details class="wp-block-details"><summary>helloコマンドの詳細</summary><!-- wp:kevinbatdorf/code-block-pro {"code":"echo \u0022hello windows alias command\u0022 ","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003cspan style=\u0022color: #6F42C1\u0022\u003eecho\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003cspan style=\u0022color: #22863A\u0022\u003e\u0026quot;hello windows alias command\u0026quot;\u003c/span\u003e\u003cspan style=\u0022color: #24292EFF\u0022\u003e \u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><pre class="shiki min-light" style="background-color: #ffffff" tabindex="0"><code><span class="line"><span style="color: #6F42C1">echo</span><span style="color: #24292EFF"> </span><span style="color: #22863A">&quot;hello windows alias command&quot;</span><span style="color: #24292EFF"> </span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#ffffff;color:#2f363c;font-size:12px;line-height:1;position:relative">Bash</span></div>
-<!-- /wp:kevinbatdorf/code-block-pro --></details>
+<details class="wp-block-details"><summary>詳細</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
+<!-- /wp:code --></details>
+<!-- /wp:details -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">MSYS2 MINGW64</h5>
+<!-- /wp:heading -->
+
+<!-- wp:code {"backgroundColor":"cyan-bluish-gray"} -->
+<pre class="wp-block-code has-cyan-bluish-gray-background-color has-background"><code>git clone https://github.com/trygfmi/alias_regular.git
+cd alias_regular
+alias hello='echo "hello windows alias command"'
+hello</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>詳細</summary><!-- wp:code {"style":{"color":{"background":"#ffeeee"}}} -->
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
+<!-- /wp:code --></details>
 <!-- /wp:details --></details>
 <!-- /wp:details -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">解説</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:kevinbatdorf/code-block-pro {"code":"","codeHTML":"\u003cpre class=\u0022shiki min-light\u0022 style=\u0022background-color: #ffffff\u0022 tabindex=\u00220\u0022\u003e\u003ccode\u003e\u003cspan class=\u0022line\u0022\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e","language":"bash","theme":"min-light","bgColor":"#ffffff","textColor":"#24292eff","fontSize":"1.125rem","fontFamily":"Code-Pro-JetBrains-Mono","lineHeight":"1.25rem","clampFonts":false,"lineNumbers":false,"headerType":"none","disablePadding":false,"footerType":"simpleStringEnd","enableMaxHeight":false,"seeMoreType":"","seeMoreString":"","seeMoreAfterLine":"","seeMoreTransition":false,"seeMoreCollapse":false,"seeMoreCollapseString":"","highlightingHover":false,"lineHighlightColor":"rgba(16, 41, 67, 0.2)","copyButton":true,"copyButtonType":"heroicons","copyButtonUseTextarea":true,"useTabs":false} -->
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"></div>
-<!-- /wp:kevinbatdorf/code-block-pro -->
-
-<!-- wp:heading -->
 <h2 class="wp-block-heading">後書き</h2>
-<!-- /wp:heading -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">この記事で使用したコマンドで実行できるお薦め記事</h2>
-<!-- /wp:heading -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">この記事で使用しているキーボード</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
