@@ -3,7 +3,9 @@
 
 
 
+<div class="wp-block-group">
 <p>このリポジトリは、aliasコマンドを実行して別名でコマンドを実行できるようにします</p>
+</div>
 
 
 
@@ -11,7 +13,9 @@
 
 
 
+<div class="wp-block-group">
 <p>特に無し</p>
+</div>
 
 
 
@@ -19,6 +23,7 @@
 
 
 
+<div class="wp-block-group">
 <p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、aliasコマンドを実行できます</p>
 
 
@@ -27,6 +32,7 @@
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>alias hello='echo "hello ubuntu alias command"'
 hello</code></pre>
 
@@ -35,6 +41,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello ubuntu alias command</code></pre>
 </details>
+</div>
 
 
 
@@ -42,6 +49,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <h4 class="wp-block-heading">MacPorts</h4>
 
 
@@ -54,6 +62,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello macos alias command</code></pre>
 </details>
+</div>
 
 
 
@@ -61,10 +70,12 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <h4 class="wp-block-heading">WSL2</h4>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>alias hello='echo "hello windows alias command"'
 hello</code></pre>
 
@@ -73,6 +84,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
 </details>
+</div>
 
 
 
@@ -80,6 +92,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>alias hello='echo "hello windows alias command"'
 hello</code></pre>
 
@@ -88,6 +101,9 @@ hello</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
 </details>
+</div>
+</div>
+</div>
 
 
 
@@ -95,6 +111,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <h3 class="wp-block-heading">ubuntu</h3>
 
 
@@ -104,11 +121,13 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>特にありません</code></pre>
+</div>
 
 
 
@@ -116,11 +135,13 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>端末でcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>特にありません</code></pre>
+</div>
 
 
 
@@ -128,6 +149,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列を出力します</p>
 
 
@@ -140,6 +162,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello ubuntu alias command</code></pre>
 </details>
+</div>
 </details>
 
 
@@ -153,6 +176,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをターミナルに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -178,6 +202,7 @@ hello</code></pre>
 
 
 [![MacPortsでインストールしたコマンドのエイリアス設定](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/thumbnail_macports2.png,)](https://ss523971.stars.ne.jp/todo/how-to-setup-macports-alias)
+</div>
 
 
 
@@ -185,11 +210,13 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>特にありません</code></pre>
+</div>
 
 
 
@@ -197,6 +224,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列を出力します</p>
 
 
@@ -209,6 +237,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello macos alias command</code></pre>
 </details>
+</div>
 </details>
 
 
@@ -222,6 +251,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをプロンプトに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -251,6 +281,7 @@ hello</code></pre>
 
 
 [![](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/msys2_thumbnail_1920_1080.png)](https://ss523971.stars.ne.jp/todo/how-to-install-msys2)
+</div>
 
 
 
@@ -258,6 +289,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>プロンプトでcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
@@ -275,6 +307,7 @@ hello</code></pre>
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>特にありません</code></pre>
+</div>
 
 
 
@@ -282,6 +315,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細の文字列を出力します</p>
 
 
@@ -290,6 +324,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>alias hello='echo "hello windows alias command"'
 hello</code></pre>
 
@@ -298,6 +333,7 @@ hello</code></pre>
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
 </details>
+</div>
 
 
 
@@ -305,6 +341,7 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>alias hello='echo "hello windows alias command"'
 hello</code></pre>
 
@@ -313,7 +350,10 @@ hello</code></pre>
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello windows alias command</code></pre>
 </details>
+</div>
+</div>
 </details>
+</div>
 
 
 
@@ -321,4 +361,6 @@ hello</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>aliasコマンド実行後にhelloコマンドが実行できるようになっているはずです<br>ターミナルを閉じた後に再度開いてhelloコマンドを実行しても実行できないことを確認してみてください</p>
+</div>
