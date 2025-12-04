@@ -1,0 +1,2 @@
+alias hello='echo "hello macos alias command"'
+hello
